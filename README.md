@@ -1,12 +1,8 @@
+// Rights Reserved, Unlicensed
 # EncryptHealth — Decentralized Digital Health Ecosystem
 
-<<<<<<< Updated upstream
 **EncryptHealth** is a privacy-first decentralized health data consent and analytics system developed under **Future Systems Lab**.  
 It integrates blockchain, FHIR/HL7 interoperability, and DAO governance to create transparent, reward-based data exchange between patients, practitioners, and research organizations.
-=======
-**EncryptHealth** is a decentralized digital health consent and data exchange prototype developed under **Future Systems Lab**.
-It demonstrates secure consent management, FHIR/HL7 data interoperability, analytics visualization, and Web3 reward integration.
->>>>>>> Stashed changes
 
 ---
 
@@ -17,8 +13,7 @@ It demonstrates secure consent management, FHIR/HL7 data interoperability, analy
 | **Frontend Dashboard** | MetaMask user login, practitioner login, and consent toggle linked to the EncryptHealthToken smart contract. | ![Dashboard](web/public/dashboard.png) |
 | **Practitioner Login (View 1)** | Practitioner interface for session access. | ![Practitioner Login](web/public/practitionerLogin.png) |
 | **Practitioner Login (View 2)** | Confirmed practitioner authentication state. | ![Practitioner Login 2](web/public/practitionerLogin2.png) |
-<<<<<<< Updated upstream
-| **FHIR/HL7 Adapter** | Parses mock FHIR `Patient.json`, verifies structure, and hashes identifiers for secure reference linkage. | ![FHIR Adapter](web/public/fhir-demo.png) |
+| **FHIR/HL7 Adapter** | Parses mock FHIR \`Patient.json\`, verifies structure, and hashes identifiers for secure reference linkage. | ![FHIR Adapter](web/public/fhir-demo.png) |
 | **Analytics Module** | Displays consent history, token rewards, and basic performance summaries. | ![Analytics](web/public/analytics-demo.png) |
 
 ---
@@ -39,29 +34,28 @@ It demonstrates secure consent management, FHIR/HL7 data interoperability, analy
 
 ## 🧠 How to Run Locally
 
-```bash
 cd web
 pnpm install
 pnpm exec next dev -p 3013
-```
 
 Then open:
 
-* Dashboard → [http://localhost:3013](http://localhost:3013)
-* FHIR Adapter → [http://localhost:3013/fhir](http://localhost:3013/fhir)
-* Analytics → [http://localhost:3013/analytics](http://localhost:3013/analytics)
+* Dashboard → http://localhost:3013  
+* FHIR Adapter → http://localhost:3013/fhir  
+* Analytics → http://localhost:3013/analytics  
 
 ---
 
 ## 🪙 Smart Contract Integration
 
-**EncryptHealthToken (ERC-20)**
-Network: Sepolia
-Address: `0xC11F23eC3A64FBA5C47b3F3d5D2a3B987A7bE4b7`
+**EncryptHealthToken (ERC-20)**  
+Network: Sepolia  
+Address: 0xC11F23eC3A64FBA5C47b3F3d5D2a3B987A7bE4b7  
+
 Functions:
 
-* `balanceOf(address)` — retrieves user balance
-* `mint(address,uint256)` — mints reward tokens upon consent grant
+* balanceOf(address) — retrieves user balance  
+* mint(address,uint256) — mints reward tokens upon consent grant  
 
 Each consent action in the dashboard triggers an on-chain mint for compliant activity tracking.
 
@@ -90,10 +84,10 @@ Each consent action in the dashboard triggers an on-chain mint for compliant act
 
 ## 🧭 Phase 3 – Future Integration
 
-* On-chain consent registry storing hashed consents
-* `ConsentUpdated` event logging for verifiable audit trails
-* Integration with DID/VC credential flows (OIDC4VP)
-* Direct interoperability with external FHIR APIs
+* On-chain consent registry storing hashed consents  
+* ConsentUpdated event logging for verifiable audit trails  
+* Integration with DID/VC credential flows (OIDC4VP)  
+* Direct interoperability with external FHIR APIs  
 
 This phase activates once external wellness or healthcare partners connect live datasets and user wallets.
 
@@ -103,26 +97,28 @@ This phase activates once external wellness or healthcare partners connect live 
 
 Modular by design for digital-health or wellness organizations:
 
-* Replace `patient.json` with a live FHIR API
-* Extend the consent toggle to map to organization-specific permissions
-* Plug in existing ERC-20 or NFT-based incentive tokens
-* Optional DAO layer for governance and access control
+* Replace patient.json with a live FHIR API  
+* Extend the consent toggle to map to organization-specific permissions  
+* Plug in existing ERC-20 or NFT-based incentive tokens  
+* Optional DAO layer for governance and access control  
 
 ---
 
 ## 🗂 Repositories
 
-EncryptHealth was originally developed within the **Where-Mental-Wellness-Meets-Metaverse** ecosystem.  
-These repositories document its foundational smart contracts and architecture shared across **HypnoNeuro**, **MindMasteryNFT**, and **EncryptHealthToken**.
+EncryptHealth was originally developed within the Where-Mental-Wellness-Meets-Metaverse ecosystem.  
+These repositories document its foundational smart contracts and architecture shared across HypnoNeuro, MindMasteryNFT, and EncryptHealthToken.
 
 | Category | Repository | Description |
 |-----------|-------------|-------------|
-| **Token Contract** | [EncryptHealthToken](https://github.com/Future-Systems-Lab/EncryptHealthToken) | ERC-20 token for reward & governance mechanisms |
-| **NFT Credentialing** | [MindMasteryNFT](https://github.com/Future-Systems-Lab/MindMasteryNFT) | ERC-721 L1-L3 credential NFTs for wellness engagement |
-| **DAO Architecture** | [HypnoNeuro](https://github.com/Future-Systems-Lab/HypnoNeuro) | Gamified mental-wellness ecosystem + DAO design |
-| **Architecture Diagrams / Docs** | [Where-Mental-Wellness-Meets-Metaverse](https://github.com/Where-Mental-Wellness-Meets-Metaverse) | Original papers and system flow references |
+| **Token Contract** | https://github.com/Future-Systems-Lab/EncryptHealthToken | ERC-20 token for reward & governance mechanisms |
+| **NFT Credentialing** | https://github.com/Future-Systems-Lab/MindMasteryNFT | ERC-721 L1-L3 credential NFTs for wellness engagement |
+| **DAO Architecture** | https://github.com/Future-Systems-Lab/HypnoNeuro | Gamified mental-wellness ecosystem + DAO design |
+| **Architecture Docs** | https://github.com/Where-Mental-Wellness-Meets-Metaverse | Original papers and system flow references |
 
-All current and future development is unified under **Future-Systems-Lab** for continuity and professional alignment.
+All current and future development is unified under Future-Systems-Lab for continuity and professional alignment.
+
+---
 
 ## 📊 Related Projects Under Future Systems Lab
 
@@ -137,11 +133,11 @@ All current and future development is unified under **Future-Systems-Lab** for c
 
 ## 🧩 Interoperability Standards
 
-* **HL7 FHIR R4** data format
-* **EIP-712** typed messages for structured wallet signing
-* **EIP-4337** (Account Abstraction) planned
-* **OIDC4VP + DID Consent Models** planned
-* **W3C VC/VP** extensions for verifiable health credentials
+* HL7 FHIR R4 data format  
+* EIP-712 typed messages for structured wallet signing  
+* EIP-4337 (Account Abstraction) planned  
+* OIDC4VP + DID Consent Models planned  
+* W3C VC/VP extensions for verifiable health credentials  
 
 ---
 
@@ -157,11 +153,11 @@ All current and future development is unified under **Future-Systems-Lab** for c
 
 ## 🧬 Compliance and Governance
 
-* No PHI stored on-chain; only hashed identifiers
-* FHIR R4 structure ensures interoperability with EHR systems
-* Consent toggle model supports HIPAA and GDPR alignment
-* DID/VC integration planned for decentralized consent verification
-* DAO governance ensures transparency in reward distribution
+* No PHI stored on-chain; only hashed identifiers  
+* FHIR R4 structure ensures interoperability with EHR systems  
+* Consent toggle model supports HIPAA and GDPR alignment  
+* DID/VC integration planned for decentralized consent verification  
+* DAO governance ensures transparency in reward distribution  
 
 ---
 
@@ -178,9 +174,3 @@ All current and future development is unified under **Future-Systems-Lab** for c
 ---
 
 © Future Systems Lab | Where Mental Wellness Meets Metaverse (legacy) | Rights Reserved, Unlicensed
-
-```
-
-=======
-| **FHIR/HL7 Adapter** | Parses mock FHIR Patient.json, verifies structure, and hashes identifiers for secure reference linkage. | ![FHIR Adapter](web/public/fhir-demo.png) |
->>>>>>> Stashed changes
