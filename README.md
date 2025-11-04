@@ -113,7 +113,6 @@ These repositories document its foundational smart contracts and architecture sh
 |-----------|-------------|-------------|
 | **Token Contract** | https://github.com/Future-Systems-Lab/EncryptHealthToken | ERC-20 token for reward & governance mechanisms |
 | **NFT Credentialing** | https://github.com/Future-Systems-Lab/HypnoNeuro/tree/main/nfts | ERC-721 L1-L3 credential NFTs for wellness engagement |
-| **DAO Architecture** | https://github.com/Future-Systems-Lab/HypnoNeuro | Gamified mental-wellness ecosystem + DAO design |
 | **Architecture Docs** | https://github.com/Where-Mental-Wellness-Meets-Metaverse | Original papers and system flow references |
 
 All current and future development is unified under Future-Systems-Lab for continuity and professional alignment.
