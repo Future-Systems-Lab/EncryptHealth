@@ -1,7 +1,12 @@
 # EncryptHealth — Decentralized Digital Health Ecosystem
 
+<<<<<<< Updated upstream
 **EncryptHealth** is a privacy-first decentralized health data consent and analytics system developed under **Future Systems Lab**.  
 It integrates blockchain, FHIR/HL7 interoperability, and DAO governance to create transparent, reward-based data exchange between patients, practitioners, and research organizations.
+=======
+**EncryptHealth** is a decentralized digital health consent and data exchange prototype developed under **Future Systems Lab**.
+It demonstrates secure consent management, FHIR/HL7 data interoperability, analytics visualization, and Web3 reward integration.
+>>>>>>> Stashed changes
 
 ---
 
@@ -12,6 +17,7 @@ It integrates blockchain, FHIR/HL7 interoperability, and DAO governance to creat
 | **Frontend Dashboard** | MetaMask user login, practitioner login, and consent toggle linked to the EncryptHealthToken smart contract. | ![Dashboard](web/public/dashboard.png) |
 | **Practitioner Login (View 1)** | Practitioner interface for session access. | ![Practitioner Login](web/public/practitionerLogin.png) |
 | **Practitioner Login (View 2)** | Confirmed practitioner authentication state. | ![Practitioner Login 2](web/public/practitionerLogin2.png) |
+<<<<<<< Updated upstream
 | **FHIR/HL7 Adapter** | Parses mock FHIR `Patient.json`, verifies structure, and hashes identifiers for secure reference linkage. | ![FHIR Adapter](web/public/fhir-demo.png) |
 | **Analytics Module** | Displays consent history, token rewards, and basic performance summaries. | ![Analytics](web/public/analytics-demo.png) |
 
@@ -175,3 +181,6 @@ All current and future development is unified under **Future-Systems-Lab** for c
 
 ```
 
+=======
+| **FHIR/HL7 Adapter** | Parses mock FHIR Patient.json, verifies structure, and hashes identifiers for secure reference linkage. | ![FHIR Adapter](web/public/fhir-demo.png) |
+>>>>>>> Stashed changes
