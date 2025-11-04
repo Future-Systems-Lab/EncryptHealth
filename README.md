@@ -29,13 +29,13 @@ It integrates blockchain, FHIR/HL7 interoperability, and DAO governance to creat
 
 ```mermaid
 graph TD
-  A[User / Practitioner] --> B[Dashboard UI]
+  A[User or Practitioner] --> B[Dashboard UI]
   B --> C[Consent Toggle]
   C --> D[FHIR / HL7 Adapter]
   D --> E[EncryptHealthToken Contract]
   E --> F[Analytics Summary]
-  F --> G[DAO Governance (Phase 2+)]
-````
+  F --> G[DAO Governance Phase 2+]
+```
 
 ---
 
