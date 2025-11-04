@@ -102,20 +102,6 @@ Modular by design for digital-health or wellness organizations:
 * Plug in existing ERC-20 or NFT-based incentive tokens  
 * Optional DAO layer for governance and access control  
 
----
-
-## 🗂 Repositories
-
-EncryptHealth was originally developed within the Where-Mental-Wellness-Meets-Metaverse ecosystem.  
-These repositories document its foundational smart contracts and architecture shared across HypnoNeuro, MindMasteryNFT, and EncryptHealthToken.
-
-| Category | Repository | Description |
-|-----------|-------------|-------------|
-| **Token Contract** | https://github.com/Future-Systems-Lab/EncryptHealthToken | ERC-20 token for reward & governance mechanisms |
-| **NFT Credentialing** | https://github.com/Future-Systems-Lab/HypnoNeuro/tree/main/nfts | ERC-721 L1-L3 credential NFTs for wellness engagement |
-| **Architecture Docs** | https://github.com/Where-Mental-Wellness-Meets-Metaverse | Original papers and system flow references |
-
-All current and future development is unified under Future-Systems-Lab for continuity and professional alignment.
 
 ---
 
