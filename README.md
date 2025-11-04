@@ -104,7 +104,7 @@ Modular by design for digital-health or wellness organizations:
 
 ---
 
-## 🗂 Legacy and Extended Repositories
+## 🗂 Repositories
 
 EncryptHealth was originally developed within the **Where-Mental-Wellness-Meets-Metaverse** ecosystem.  
 These repositories document its foundational smart contracts and architecture shared across **HypnoNeuro**, **MindMasteryNFT**, and **EncryptHealthToken**.
