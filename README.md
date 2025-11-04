@@ -76,11 +76,9 @@ Each consent action in the dashboard triggers an on-chain mint for compliant act
 
 ## 📍 Roadmap
 
-* ✅ Wallet login + consent toggle
-* ✅ FHIR/HL7 mock adapter
-* ✅ Analytics / visualization
-* ✅ DAO smart-contract linkage 
-* ⬜ Decentralized consent registry + on-chain audit trail (Phase 2 planned)
+- ✅ Phase 1 — EncryptHealth MVP complete (functional consent, FHIR adapter, analytics, DAO link)  
+- ⬜ Phase 2 — Commercial expansion / integration layer (branding, partner onboarding, real FHIR data)  
+- ⬜ Phase 3 — Decentralized consent registry + on-chain audit trail
 
 ---
 
