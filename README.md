@@ -82,39 +82,33 @@ Each consent action in the dashboard triggers an on-chain mint for compliant act
 
 ---
 
-## 🧭 Future Integration
+## 🧭 Future Integration & Potential
 
 * On-chain consent registry storing hashed consents  
 * ConsentUpdated event logging for verifiable audit trails  
 * Integration with DID/VC credential flows (OIDC4VP)  
 * Direct interoperability with external FHIR APIs  
-
-This phase activates once external wellness or healthcare partners connect live datasets and user wallets.
-
----
-
-## 🧠 Integration Potential
-
-Modular by design for digital-health or wellness organizations:
-
 * Replace patient.json with a live FHIR API  
 * Extend the consent toggle to map to organization-specific permissions  
 * Plug in existing ERC-20 or NFT-based incentive tokens  
 * Optional DAO layer for governance and access control  
 
+This phase activates once external wellness or healthcare partners connect live datasets and user wallets.
 
 ---
 
 ## 📊 Related Projects Under Future Systems Lab
 
 | Project                     | Focus                                                                  | Status         |
-| --------------------------- | ---------------------------------------------------------------------- | -------------- |
-| **HypnoNeuro**              | Gamified mental wellness + DAO ecosystem with non-PHI credential flows | In progress    |
-| **EncryptHealth**           | Healthcare consent & analytics MVP (finished)                          | ✅ MVP Complete |
-| **Secure Health Login**     | Wallet-based FHIR login portal (Next.js + Wagmi)                       | Operational    |
-| **Future Systems Lab Core** | Unified digital-health stack for research and grants                   | Active         |
+|----------------------------|------------------------------------------------------------------------|----------------|
+| **HypnoNeuro**             | Gamified mental wellness + DAO ecosystem with non-PHI credential flows | In progress     |
+| **Secure Health Login**    | Wallet-based FHIR login portal (Next.js + Wagmi)                       | Operational     |
+| **Future Systems Lab Core** | Framework for building modular digital-health systems and components   | Active          |
 
----
+[HypnoNeuro](https://github.com/Future-Systems-Lab/HypnoNeuro)  
+[Secure Health Login][Wallet-based FHIR login portal (Next.js + Wagmi)](https://github.com/Future-Systems-Lab/secure-health-login) | ✅ Operational |
+[Future Systems Lab Core](https://github.com/Future-Systems-Lab)  
+
 
 ## 🧩 Interoperability Standards
 
