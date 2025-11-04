@@ -174,3 +174,7 @@ All current and future development is unified under Future-Systems-Lab for conti
 ---
 
 © Future Systems Lab | Where Mental Wellness Meets Metaverse (legacy) | Rights Reserved, Unlicensed
+
+## 🎥 DAO Presentation
+
+[View DAO Presentation (PDF)](docs/DAO_Presentation.pdf)
