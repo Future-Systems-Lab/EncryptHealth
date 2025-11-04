@@ -106,19 +106,17 @@ Modular by design for digital-health or wellness organizations:
 
 ## 🗂 Legacy and Extended Repositories
 
-EncryptHealth was originally developed within the **Where-Mental-Wellness-Meets-Metaverse** ecosystem.
+EncryptHealth was originally developed within the **Where-Mental-Wellness-Meets-Metaverse** ecosystem.  
 These repositories document its foundational smart contracts and architecture shared across **HypnoNeuro**, **MindMasteryNFT**, and **EncryptHealthToken**.
 
-| Category                         | Repository                                                                                        | Description                                           |
-| -------------------------------- | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| **Token Contract**               | [EncryptHealthToken](https://github.com/Where-Mental-Wellness-Meets-Metaverse/EncryptHealthToken) | ERC-20 token for reward & governance mechanisms       |
-| **NFT Credentialing**            | [MindMasteryNFT](https://github.com/Where-Mental-Wellness-Meets-Metaverse/MindMasteryNFT)         | ERC-721 L1-L3 credential NFTs for wellness engagement |
-| **DAO Architecture**             | [HypnoNeuro](https://github.com/Where-Mental-Wellness-Meets-Metaverse/HypnoNeuro)                 | Gamified mental-wellness ecosystem + DAO design       |
-| **Architecture Diagrams / Docs** | [Where-Mental-Wellness-Meets-Metaverse](https://github.com/Where-Mental-Wellness-Meets-Metaverse) | Original papers and system flow references            |
+| Category | Repository | Description |
+|-----------|-------------|-------------|
+| **Token Contract** | [EncryptHealthToken](https://github.com/Future-Systems-Lab/EncryptHealthToken) | ERC-20 token for reward & governance mechanisms |
+| **NFT Credentialing** | [MindMasteryNFT](https://github.com/Future-Systems-Lab/MindMasteryNFT) | ERC-721 L1-L3 credential NFTs for wellness engagement |
+| **DAO Architecture** | [HypnoNeuro](https://github.com/Future-Systems-Lab/HypnoNeuro) | Gamified mental-wellness ecosystem + DAO design |
+| **Architecture Diagrams / Docs** | [Where-Mental-Wellness-Meets-Metaverse](https://github.com/Where-Mental-Wellness-Meets-Metaverse) | Original papers and system flow references |
 
 All current and future development is unified under **Future-Systems-Lab** for continuity and professional alignment.
-
----
 
 ## 📊 Related Projects Under Future Systems Lab
 
