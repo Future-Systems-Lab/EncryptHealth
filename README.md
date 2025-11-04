@@ -27,15 +27,7 @@ It integrates blockchain, FHIR/HL7 interoperability, and DAO governance to creat
 - **Governance Layer (Phase 2):** DAO linkage through token minting  
 - **Extensibility (Phase 3):** Optional on-chain registry and audit trail  
 
-```mermaid
-graph TD
-  A[User or Practitioner] --> B[Dashboard UI]
-  B --> C[Consent Toggle]
-  C --> D[FHIR / HL7 Adapter]
-  D --> E[EncryptHealthToken Contract]
-  E --> F[Analytics Summary]
-  F --> G[DAO Governance Phase 2+]
-```
+✅ Architecture Flow: User → Consent Toggle → FHIR Adapter → EncryptHealthToken → Analytics Summary → DAO Governance (Phase 2 complete)
 
 ---
 
@@ -87,8 +79,8 @@ Each consent action in the dashboard triggers an on-chain mint for compliant act
 * ✅ Wallet login + consent toggle
 * ✅ FHIR/HL7 mock adapter
 * ✅ Analytics / visualization
-* ✅ DAO smart-contract linkage (Phase 2 complete)
-* ⬜ Decentralized consent registry + on-chain audit trail (Phase 3 planned)
+* ✅ DAO smart-contract linkage 
+* ⬜ Decentralized consent registry + on-chain audit trail (Phase 2 planned)
 
 ---
 
