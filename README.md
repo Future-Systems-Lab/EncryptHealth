@@ -99,16 +99,13 @@ This phase activates once external wellness or healthcare partners connect live 
 
 ## 📊 Related Projects Under Future Systems Lab
 
-| Project                     | Focus                                                                  | Status         |
-|----------------------------|------------------------------------------------------------------------|----------------|
-| **HypnoNeuro**             | Gamified mental wellness + DAO ecosystem with non-PHI credential flows | In progress     |
-| **Secure Health Login**    | Wallet-based FHIR login portal (Next.js + Wagmi)                       | Operational     |
-| **Future Systems Lab Core** | Framework for building modular digital-health systems and components   | Active          |
+| Project | Focus | Status |
+|----------|--------|--------|
+| [**HypnoNeuro**](https://github.com/Future-Systems-Lab/HypnoNeuro) | Gamified mental wellness + DAO ecosystem with non-PHI credential flows | ✅ MVP Complete |
+| [**Secure Health Login**](https://github.com/Future-Systems-Lab/secure-health-login) | Wallet-based FHIR login portal (Next.js + Wagmi) | ✅ Operational |
+| [**Future Systems Lab Core**](https://github.com/Future-Systems-Lab) | Framework for building modular digital-health systems and components | 🟢 Active |
 
-[HypnoNeuro](https://github.com/Future-Systems-Lab/HypnoNeuro)  
-[Secure Health Login][Wallet-based FHIR login portal (Next.js + Wagmi)](https://github.com/Future-Systems-Lab/secure-health-login) | ✅ Operational |
-[Future Systems Lab Core](https://github.com/Future-Systems-Lab)  
-
+---
 
 ## 🧩 Interoperability Standards
 
