@@ -1,7 +1,7 @@
-# EncryptHealth MVP
+# EncryptHealth — Decentralized Digital Health Ecosystem
 
-**EncryptHealth** is a decentralized digital health consent and data exchange prototype built for compliance, analytics, and DAO-based governance.  
-This MVP demonstrates consent management, FHIR/HL7 data handling, and basic analytics using Web3 technologies.
+**EncryptHealth** is a privacy-first decentralized health data consent and analytics system developed under **Future Systems Lab**.  
+It integrates blockchain, FHIR/HL7 interoperability, and DAO governance to create transparent, reward-based data exchange between patients, practitioners, and research organizations.
 
 ---
 
@@ -9,52 +9,191 @@ This MVP demonstrates consent management, FHIR/HL7 data handling, and basic anal
 
 | Module | Description | Demo |
 |---------|--------------|------|
-| **Frontend Dashboard** | MetaMask user login, practitioner login, and consent toggle. | ![Dashboard](web/public/dashboard.png) |
-| **FHIR/HL7 Adapter** | Parses a mock FHIR Patient.json, verifies structure, and hashes identifiers for secure record linkage. | ![FHIR Adapter](web/public/fhir-demo.png) |
-| **Analytics Module** | Displays mock consent events, token rewards, and summary metrics. | ![Analytics](web/public/analytics-demo.png) |
+| **Frontend Dashboard** | MetaMask user login, practitioner login, and consent toggle linked to the EncryptHealthToken smart contract. | ![Dashboard](web/public/dashboard.png) |
+| **Practitioner Login (View 1)** | Practitioner interface for session access. | ![Practitioner Login](web/public/practitionerLogin.png) |
+| **Practitioner Login (View 2)** | Confirmed practitioner authentication state. | ![Practitioner Login 2](web/public/practitionerLogin2.png) |
+| **FHIR/HL7 Adapter** | Parses mock FHIR `Patient.json`, verifies structure, and hashes identifiers for secure reference linkage. | ![FHIR Adapter](web/public/fhir-demo.png) |
+| **Analytics Module** | Displays consent history, token rewards, and basic performance summaries. | ![Analytics](web/public/analytics-demo.png) |
 
 ---
 
 ## ⚙️ Architecture Overview
 
-- **Next.js + Tailwind** frontend (SSR)
-- **Wagmi / Viem** wallet integration
-- **FHIR/HL7 adapter** (mock data parsing and hashing)
-- **Local data analytics** for consent activity
-- Ready for extension into on-chain DAO governance and token rewards
+- **Frontend:** Next.js + Tailwind (SSR enabled)  
+- **Wallet Integration:** Wagmi / Viem (MetaMask connection)  
+- **Blockchain Layer:** ERC-20 (EncryptHealthToken) on Sepolia  
+- **Data Adapter:** FHIR/HL7 mock parser for interoperability  
+- **Analytics Layer:** Local visualization of consent + token data  
+- **Governance Layer (Phase 2):** DAO linkage through token minting  
+- **Extensibility (Phase 3):** Optional on-chain registry and audit trail  
 
-\`\`\`mermaid
+```mermaid
 graph TD
-  A[User/Practitioner Dashboard] --> B[Consent Toggle]
-  B --> C[FHIR Adapter]
-  C --> D[Hash Generator]
-  D --> E[Analytics Summary]
-\`\`\`
+  A[User / Practitioner] --> B[Dashboard UI]
+  B --> C[Consent Toggle]
+  C --> D[FHIR / HL7 Adapter]
+  D --> E[EncryptHealthToken Contract]
+  E --> F[Analytics Summary]
+  F --> G[DAO Governance (Phase 2+)]
+````
 
 ---
 
 ## 🧠 How to Run Locally
 
-\`\`\`bash
+```bash
 cd web
 pnpm install
 pnpm exec next dev -p 3013
-\`\`\`
+```
+
 Then open:
-- Dashboard → http://localhost:3013  
-- FHIR Adapter → http://localhost:3013/fhir  
-- Analytics → http://localhost:3013/analytics
+
+* Dashboard → [http://localhost:3013](http://localhost:3013)
+* FHIR Adapter → [http://localhost:3013/fhir](http://localhost:3013/fhir)
+* Analytics → [http://localhost:3013/analytics](http://localhost:3013/analytics)
+
+---
+
+## 🪙 Smart Contract Integration
+
+**EncryptHealthToken (ERC-20)**
+Network: Sepolia
+Address: `0xC11F23eC3A64FBA5C47b3F3d5D2a3B987A7bE4b7`
+Functions:
+
+* `balanceOf(address)` — retrieves user balance
+* `mint(address,uint256)` — mints reward tokens upon consent grant
+
+Each consent action in the dashboard triggers an on-chain mint for compliant activity tracking.
+
+---
+
+## 🧩 System Design
+
+| Layer         | Technology            | Function                    |
+| ------------- | --------------------- | --------------------------- |
+| UI / SSR      | Next.js 14 + Tailwind | App rendering & routing     |
+| State / Query | React Query           | Client-side data caching    |
+| Wallets       | Wagmi v2 + MetaMask   | Auth & EIP-1193 provider    |
+| Blockchain    | Viem                  | Contract reads & writes     |
+| Standards     | HL7 FHIR R4           | Healthcare data structure   |
+| Security      | SHA-256 Hashing       | Patient ID pseudonymization |
 
 ---
 
 ## 📍 Roadmap
 
-- [x] Wallet login + consent toggle  
-- [x] FHIR/HL7 mock adapter  
-- [x] Analytics/visualization  
-- [x] DAO smart contract linkage 
-- [ ] Decentralized consent registry + on-chain audit trail (Phase 3 - planned)
+* ✅ Wallet login + consent toggle
+* ✅ FHIR/HL7 mock adapter
+* ✅ Analytics / visualization
+* ✅ DAO smart-contract linkage (Phase 2 complete)
+* ⬜ Decentralized consent registry + on-chain audit trail (Phase 3 planned)
 
 ---
 
-© EncryptHealth | Future Systems Lab | Rights Reserved, Unlicensed
+## 🧭 Phase 3 – Future Integration
+
+* On-chain consent registry storing hashed consents
+* `ConsentUpdated` event logging for verifiable audit trails
+* Integration with DID/VC credential flows (OIDC4VP)
+* Direct interoperability with external FHIR APIs
+
+This phase activates once external wellness or healthcare partners connect live datasets and user wallets.
+
+---
+
+## 🧠 Integration Potential
+
+Modular by design for digital-health or wellness organizations:
+
+* Replace `patient.json` with a live FHIR API
+* Extend the consent toggle to map to organization-specific permissions
+* Plug in existing ERC-20 or NFT-based incentive tokens
+* Optional DAO layer for governance and access control
+
+---
+
+## 🗂 Legacy and Extended Repositories
+
+EncryptHealth was originally developed within the **Where-Mental-Wellness-Meets-Metaverse** ecosystem.
+These repositories document its foundational smart contracts and architecture shared across **HypnoNeuro**, **MindMasteryNFT**, and **EncryptHealthToken**.
+
+| Category                         | Repository                                                                                        | Description                                           |
+| -------------------------------- | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| **Token Contract**               | [EncryptHealthToken](https://github.com/Where-Mental-Wellness-Meets-Metaverse/EncryptHealthToken) | ERC-20 token for reward & governance mechanisms       |
+| **NFT Credentialing**            | [MindMasteryNFT](https://github.com/Where-Mental-Wellness-Meets-Metaverse/MindMasteryNFT)         | ERC-721 L1-L3 credential NFTs for wellness engagement |
+| **DAO Architecture**             | [HypnoNeuro](https://github.com/Where-Mental-Wellness-Meets-Metaverse/HypnoNeuro)                 | Gamified mental-wellness ecosystem + DAO design       |
+| **Architecture Diagrams / Docs** | [Where-Mental-Wellness-Meets-Metaverse](https://github.com/Where-Mental-Wellness-Meets-Metaverse) | Original papers and system flow references            |
+
+All current and future development is unified under **Future-Systems-Lab** for continuity and professional alignment.
+
+---
+
+## 📊 Related Projects Under Future Systems Lab
+
+| Project                     | Focus                                                                  | Status         |
+| --------------------------- | ---------------------------------------------------------------------- | -------------- |
+| **HypnoNeuro**              | Gamified mental wellness + DAO ecosystem with non-PHI credential flows | In progress    |
+| **EncryptHealth**           | Healthcare consent & analytics MVP (finished)                          | ✅ MVP Complete |
+| **Secure Health Login**     | Wallet-based FHIR login portal (Next.js + Wagmi)                       | Operational    |
+| **Future Systems Lab Core** | Unified digital-health stack for research and grants                   | Active         |
+
+---
+
+## 🧩 Interoperability Standards
+
+* **HL7 FHIR R4** data format
+* **EIP-712** typed messages for structured wallet signing
+* **EIP-4337** (Account Abstraction) planned
+* **OIDC4VP + DID Consent Models** planned
+* **W3C VC/VP** extensions for verifiable health credentials
+
+---
+
+## 🧾 Contract Summary
+
+| Contract                | Network | Type    | Purpose                       |
+| ----------------------- | ------- | ------- | ----------------------------- |
+| **EncryptHealthToken**  | Sepolia | ERC-20  | Reward + governance token     |
+| **MindMasteryNFT**      | Sepolia | ERC-721 | Tiered credential NFT (L1–L3) |
+| **HypnoNeuroNFT_L1_L3** | Sepolia | ERC-721 | Therapy progression NFTs      |
+
+---
+
+## 🧬 Compliance and Governance
+
+* No PHI stored on-chain; only hashed identifiers
+* FHIR R4 structure ensures interoperability with EHR systems
+* Consent toggle model supports HIPAA and GDPR alignment
+* DID/VC integration planned for decentralized consent verification
+* DAO governance ensures transparency in reward distribution
+
+---
+
+## 🧩 Ecosystem Summary
+
+| Layer      | Component                 | Function                    |
+| ---------- | ------------------------- | --------------------------- |
+| Identity   | MetaMask / Wallet Connect | Secure user auth            |
+| Data       | HL7 FHIR JSON             | Interoperable clinical data |
+| Blockchain | Sepolia (EVM)             | Consent + Reward storage    |
+| Analytics  | Next.js Charts + Tables   | Transparency & insights     |
+| DAO        | EHT Token + NFTs          | Governance + engagement     |
+
+---
+
+© Future Systems Lab | Where Mental Wellness Meets Metaverse (legacy) | Rights Reserved, Unlicensed
+
+```
+
+---
+
+✅ This README now:
+- Shows the full MVP you built  
+- References your legacy repos (MindMasteryNFT, EncryptHealthToken, HypnoNeuro)  
+- Lists your architecture, contracts, compliance model, and roadmap  
+- Keeps everything unified under **Future Systems Lab**
+
+Would you like me to make a follow-up `docs/architecture.md` file next, expanding the diagrams and flow for grant reviewers?
+```
