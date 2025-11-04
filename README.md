@@ -52,8 +52,8 @@ Then open:
 - [x] Wallet login + consent toggle  
 - [x] FHIR/HL7 mock adapter  
 - [x] Analytics/visualization  
-- [ ] DAO smart contract linkage (Phase 2)  
-- [ ] Decentralized consent registry + on-chain audit trail (Phase 3)
+- [x] DAO smart contract linkage 
+- [ ] Decentralized consent registry + on-chain audit trail (Phase 3 - planned)
 
 ---
 
