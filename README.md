@@ -169,4 +169,5 @@ This phase activates once external wellness or healthcare partners connect live 
 
 
 
-© Future Systems Lab | Where Mental Wellness Meets Metaverse (legacy) | Rights Reserved, Unlicensed
+© Future Systems Lab | Where Mental Wellness Meets Metaverse | Rights Reserved, Unlicensed
+
