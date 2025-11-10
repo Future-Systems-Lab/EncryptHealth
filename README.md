@@ -166,6 +166,7 @@ This phase activates once external wellness or healthcare partners connect live 
 |---------------------------|
 | <img src="https://raw.githubusercontent.com/Future-Systems-Lab/HypnoNeuro/main/web/public/encrypthealthtoken.png" alt="EHT" width="140"/> |
 
+**Deployed on Sepolia:** [0x01Dc4656...](https://sepolia.etherscan.io/address/0x01Dc4656...) ✅ Verified
 
 
 
