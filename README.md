@@ -1,4 +1,11 @@
 // Rights Reserved, Unlicensed
+
+// Rights Reserved, Unlicensed
+
+<p align="center">
+  <img src="./assets/encrypthealth-logo.jpeg" alt="EncryptHealth Banner" width="450">
+</p>
+
 # EncryptHealth — Decentralized Digital Health Ecosystem
 
 **EncryptHealth** is a privacy-first decentralized health data consent and analytics system developed under **Future Systems Lab**.  
