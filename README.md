@@ -162,9 +162,8 @@ This phase activates once external wellness or healthcare partners connect live 
 
 ---
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Future-Systems-Lab/HypnoNeuro/main/web/public/encrypthealthtoken.png" alt="EncryptHealth Token" width="420">
-</p>
+| <img src="web/public/encrypthealthtoken.png" alt="EHT" width="140"/> |
+
 
 
 © Future Systems Lab | Where Mental Wellness Meets Metaverse (legacy) | Rights Reserved, Unlicensed
