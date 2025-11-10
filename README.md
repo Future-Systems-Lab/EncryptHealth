@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <img src="./assets/encrypthealth-logo.jpeg" alt="EncryptHealth Banner" width="300">
+  <img src="./assets/encrypthealth-logo.jpeg" alt="EncryptHealth Banner" width="400">
 </p>
 
 # EncryptHealth — Decentralized Digital Health Ecosystem
