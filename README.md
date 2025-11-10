@@ -1,9 +1,9 @@
 // Rights Reserved, Unlicensed
 
-// Rights Reserved, Unlicensed
+
 
 <p align="center">
-  <img src="./assets/encrypthealth-logo.jpeg" alt="EncryptHealth Banner" width="450">
+  <img src="./assets/encrypthealth-logo.jpeg" alt="EncryptHealth Banner" width="300">
 </p>
 
 # EncryptHealth — Decentralized Digital Health Ecosystem
