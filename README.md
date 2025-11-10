@@ -162,7 +162,10 @@ This phase activates once external wellness or healthcare partners connect live 
 
 ---
 
-| <img src="web/public/encrypthealthtoken.png" alt="EHT" width="140"/> |
+| EncryptHealthToken (EHT) |
+|---------------------------|
+| <img src="https://raw.githubusercontent.com/Future-Systems-Lab/HypnoNeuro/main/web/public/encrypthealthtoken.png" alt="EHT" width="140"/> |
+
 
 
 
